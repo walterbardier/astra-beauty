@@ -1,0 +1,12 @@
+/* Este es importado en index.css y luego en es llamado en main.tsx */
+
+/* Ocultar barra de scroll en Chrome, Safari y Opera */
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+  
+/* Ocultar barra de scroll en IE, Edge y Firefox */
+.scrollbar-hide {
+    -ms-overflow-style: none;  /* IE y Edge */
+    scrollbar-width: none;     /* Firefox */
+}
