@@ -97,7 +97,7 @@ export function Navbar({
             ) : (
               <div className="cursor-pointer transition-opacity hover:opacity-100">
                 <img 
-                  src="../../../public/images/logo/logo-1.png" 
+                  src="/images/logo/logo-1.png" 
                   alt="ASTRA BEAUTY" 
                   className="h-9 md:h-12 w-auto object-contain" 
                 />
@@ -133,7 +133,7 @@ export function Navbar({
 
             <div className="cursor-pointer transition-opacity hover:opacity-100">
               <img 
-                src="../../../public/images/logo/logo-1.png" 
+                src="/images/logo/logo-1.png" 
                 alt="ASTRA BEAUTY" 
                 className="h-12 md:h-13 w-auto object-contain" 
               />

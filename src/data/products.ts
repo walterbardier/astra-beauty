@@ -24,7 +24,7 @@ export const PRODUCTS: Product[] = [
     price: "$35.00",
     priceNum: 35,
     shade: "Moonlight Silver",
-    image: "../../public/images/products/highlighter-1.png",
+    image: "/images/products/highlighter-1.png",
     tag: "NEW",
     rating: 4.8,
     reviews: 118,
@@ -36,9 +36,9 @@ export const PRODUCTS: Product[] = [
       { name: "Nebula Blue", color: "#8876ff" },
     ],
     gallery: [
-      "../../public/images/products/highlighter-2.png",
-      "../../public/images/products/highlighter-3.png",
-      "../../public/images/products/highlighter-4.png",
+      "/images/products/highlighter-2.png",
+      "/images/products/highlighter-3.png",
+      "/images/products/highlighter-4.png",
     ],
   },
 
@@ -50,7 +50,7 @@ export const PRODUCTS: Product[] = [
     price: "$22.00",
     priceNum: 22,
     shade: "Perigee",
-    image: "../../public/images/products/gloss-1.png",
+    image: "/images/products/gloss-1.png",
     tag: "NEW",
     rating: 4.5,
     reviews: 67,
@@ -63,7 +63,7 @@ export const PRODUCTS: Product[] = [
       // "https://images.unsplash.com/photo-1586495777744-4413f21062fa?w=200&h=240&fit=crop&auto=format",
       // "https://images.unsplash.com/photo-1626895872564-b691b6877b83?w=200&h=240&fit=crop&auto=format",
       // "https://images.unsplash.com/photo-1571646034647-52e6ea84b28c?w=200&h=240&fit=crop&auto=format",
-      "../../public/images/products/gloss-2.png",
+      "/images/products/gloss-2.png",
     ],
   },
 
@@ -75,7 +75,7 @@ export const PRODUCTS: Product[] = [
     price: "$52.00",
     priceNum: 52,
     shade: "Lavander-Blue-Silver-White",
-    image: "../../public/images/products/eyeshadow-palette-1.png",
+    image: "/images/products/eyeshadow-palette-1.png",
     tag: "NEW",
     rating: 4.9,
     reviews: 156,
@@ -87,7 +87,7 @@ export const PRODUCTS: Product[] = [
       // { name: "White", color: "#FFFFFF" }
     ],
     gallery: [
-      "../../public/images/products/eyeshadow-palette-2.png",
+      "/images/products/eyeshadow-palette-2.png",
     ],
   },
   
@@ -99,7 +99,7 @@ export const PRODUCTS: Product[] = [
     price: "$18.00",
     priceNum: 18,
     shade: "Lunar Rose",
-    image: "../../public/images/products/lipstick-1.png",
+    image: "/images/products/lipstick-1.png",
     tag: "BESTSELLER",
     rating: 4.8,
     reviews: 312,
@@ -113,8 +113,8 @@ export const PRODUCTS: Product[] = [
       // "https://images.unsplash.com/photo-1626895872564-b691b6877b83?w=200&h=240&fit=crop&auto=format",
       // "https://images.unsplash.com/photo-1631214524049-0ebbbe6d81aa?w=200&h=240&fit=crop&auto=format",
       // "https://images.unsplash.com/photo-1571646034647-52e6ea84b28c?w=200&h=240&fit=crop&auto=format",
-      "../../public/images/products/lipstick-2.png",
-      "../../public/images/products/lipstick-3.png",
+      "/images/products/lipstick-2.png",
+      "/images/products/lipstick-3.png",
     ],
   },
 
@@ -126,7 +126,7 @@ export const PRODUCTS: Product[] = [
     price: "$22.00",
     priceNum: 22,
     shade: "Multi-Shade",
-    image: "../../public/images/products/lipliner-1.png",
+    image: "/images/products/lipliner-1.png",
     tag: "NEW",
     rating: 4.7,
     reviews: 135,
@@ -137,8 +137,8 @@ export const PRODUCTS: Product[] = [
       { name: "Deep Bordo", color: "#660202" }
     ],
     gallery: [
-      "../../public/images/products/lipliner-2.png",
-      "../../public/images/products/lipliner-3.png",
+      "/images/products/lipliner-2.png",
+      "/images/products/lipliner-3.png",
     ],
   },
   
@@ -150,7 +150,7 @@ export const PRODUCTS: Product[] = [
     price: "$42.00",
     priceNum: 42,
     shade: "Black",
-    image: "../../public/images/products/liquid-eyeliner-1.png",
+    image: "/images/products/liquid-eyeliner-1.png",
     tag: "NEW",
     rating: 4.6,
     reviews: 89,
@@ -160,7 +160,7 @@ export const PRODUCTS: Product[] = [
       { name: "Lunar White", color: "#FFFFFF" },
     ],
     gallery: [
-      "../../public/images/products/liquid-eyeliner-2.png",
+      "/images/products/liquid-eyeliner-2.png",
     ],
   },
   {
@@ -170,7 +170,7 @@ export const PRODUCTS: Product[] = [
     price: "$42.00",
     priceNum: 42,
     shade: "White",
-    image: "../../public/images/products/liquid-eyeliner-2.png",
+    image: "/images/products/liquid-eyeliner-2.png",
     tag: "NEW",
     rating: 4.8,
     reviews: 72,
@@ -180,7 +180,7 @@ export const PRODUCTS: Product[] = [
       { name: "Void Black", color: "#000000" },
     ],
     gallery: [
-      "../../public/images/products/liquid-eyeliner-1.png",
+      "/images/products/liquid-eyeliner-1.png",
     ],
   },
 
@@ -192,7 +192,7 @@ export const PRODUCTS: Product[] = [
     price: "$24.00",
     priceNum: 24,
     shade: "Rose Red",
-    image: "../../public/images/products/blush-1.png",
+    image: "/images/products/blush-1.png",
     tag: "BEST SELLER",
     rating: 4.8,
     reviews: 120,
@@ -201,7 +201,7 @@ export const PRODUCTS: Product[] = [
       { name: "Cosmic Rose", color: "#d13658" },
     ],
     gallery: [
-      "../../public/images/products/blush-2.png",
+      "/images/products/blush-2.png",
     ],
   },
 
@@ -213,7 +213,7 @@ export const PRODUCTS: Product[] = [
     price: "$22.00",
     priceNum: 22,
     shade: "Multi-Shade",
-    image: "../../public/images/products/concealer-1.png",
+    image: "/images/products/concealer-1.png",
     tag: "ESSENTIAL",
     rating: 4.9,
     reviews: 215,
@@ -224,8 +224,8 @@ export const PRODUCTS: Product[] = [
       { name: "Dark Galaxy", color: "#7a5c48" },
     ],
     gallery: [
-      "../../public/images/products/concealer-2.png",
-      "../../public/images/products/concealer-3.png",
+      "/images/products/concealer-2.png",
+      "/images/products/concealer-3.png",
     ],
   },
   {
@@ -235,7 +235,7 @@ export const PRODUCTS: Product[] = [
     price: "$32.00",
     priceNum: 32,
     shade: "Universal",
-    image: "../../public/images/products/concealer-contour-1.png",
+    image: "/images/products/concealer-contour-1.png",
     tag: "PRO",
     rating: 4.7,
     reviews: 98,
@@ -255,7 +255,7 @@ export const PRODUCTS: Product[] = [
     price: "$34.00",
     priceNum: 34,
     shade: "Silver Glow",
-    image: "../../public/images/products/serum-1.png",
+    image: "/images/products/serum-1.png",
     tag: "NEW",
     rating: 4.9,
     reviews: 52,
@@ -264,7 +264,7 @@ export const PRODUCTS: Product[] = [
       { name: "Clear Radiance", color: "#e0e0e0" },
     ],
     gallery: [
-      "../../public/images/products/serum-2.png",
+      "/images/products/serum-2.png",
     ],
   },
   {

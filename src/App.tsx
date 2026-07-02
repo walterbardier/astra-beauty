@@ -76,7 +76,7 @@ export default function App() {
       {/* bg-foreground hace que el fondo sea negro / sino, sería blanco */}
       <section className="relative h-[88vh] flex items-end overflow-hidden bg-foreground select-none">
         <img
-          src="../public/images/model/model-6.png"
+          src="/images/model/model-6.png"
           alt="ASTRA BEAUTY hero"
           // opacity-90 -> define la opacidad de la img
           className="absolute inset-0 w-full h-full object-cover opacity-90 saturate-120"
@@ -248,7 +248,7 @@ export default function App() {
           </div>
           <div className="relative overflow-hidden bg-secondary rounded-3xl min-h-[500px]">
             <img
-              src="../public/images/collections/collection-1.png"
+              src="/images/collections/collection-1.png"
               alt="Skincare products arranged on a shelf"
               className="w-full h-full object-cover"
             />
