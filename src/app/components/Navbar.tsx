@@ -245,9 +245,10 @@ export function Navbar({
                     <img
                       src={p.image.replace("w=600&h=720", "w=320&h=400")}
                       alt={p.name}
-                      // AGREGADO: pointer-events-none para que el click pase al botón padre
                       className={`absolute inset-0 w-full h-full object-cover pointer-events-none transition-all duration-700 ${
-                        hoveredProduct === p.id ? "opacity-0 scale-105" : "opacity-100 scale-100"
+                        hoveredProduct === p.id && p.gallery.length > 0
+                          ? "opacity-0 scale-105"
+                          : "opacity-100 scale-100"
                       }`}
                     />
                     

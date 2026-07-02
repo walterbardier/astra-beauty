@@ -274,9 +274,6 @@ export function ProductDetail({
             100% { transform: translateX(-50%); }
             }
             .animate-marquee { animation: marquee 28s linear infinite; }
-            ::-webkit-scrollbar { width: 4px; }
-            ::-webkit-scrollbar-track { background: transparent; }
-            ::-webkit-scrollbar-thumb { background: #c0384e; border-radius: 99px; }
             `}
         </style>
     </div>

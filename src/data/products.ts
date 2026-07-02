@@ -60,9 +60,6 @@ export const PRODUCTS: Product[] = [
       { name: "Aphelion", color: "#894c76" },
     ],
     gallery: [
-      // "https://images.unsplash.com/photo-1586495777744-4413f21062fa?w=200&h=240&fit=crop&auto=format",
-      // "https://images.unsplash.com/photo-1626895872564-b691b6877b83?w=200&h=240&fit=crop&auto=format",
-      // "https://images.unsplash.com/photo-1571646034647-52e6ea84b28c?w=200&h=240&fit=crop&auto=format",
       "/images/products/gloss-2.png",
     ],
   },
@@ -83,8 +80,6 @@ export const PRODUCTS: Product[] = [
     shades: [
       { name: "Lavender", color: "#B57EDC" },
       { name: "Crimson", color: "#9E2A2B" },
-      // { name: "Silver", color: "#C0C0C0" },
-      // { name: "White", color: "#FFFFFF" }
     ],
     gallery: [
       "/images/products/eyeshadow-palette-2.png",
@@ -110,9 +105,6 @@ export const PRODUCTS: Product[] = [
       { name: "Bare Transit", color: "#c4906e" },
     ],
     gallery: [
-      // "https://images.unsplash.com/photo-1626895872564-b691b6877b83?w=200&h=240&fit=crop&auto=format",
-      // "https://images.unsplash.com/photo-1631214524049-0ebbbe6d81aa?w=200&h=240&fit=crop&auto=format",
-      // "https://images.unsplash.com/photo-1571646034647-52e6ea84b28c?w=200&h=240&fit=crop&auto=format",
       "/images/products/lipstick-2.png",
       "/images/products/lipstick-3.png",
     ],
@@ -196,7 +188,7 @@ export const PRODUCTS: Product[] = [
     tag: "BEST SELLER",
     rating: 4.8,
     reviews: 120,
-    description: "Blush en barra de alta pigmentación con acabado dewy. Una textura cremosa que se funde con la piel para un toque de color galáctico.",
+    description: "A highly pigmented blush stick with a dewy finish. The creamy formula melts effortlessly into the skin, delivering a touch of galactic color.",
     shades: [
       { name: "Cosmic Rose", color: "#d13658" },
     ],
@@ -217,7 +209,7 @@ export const PRODUCTS: Product[] = [
     tag: "ESSENTIAL",
     rating: 4.9,
     reviews: 215,
-    description: "Corrector líquido de larga duración con tecnología de cobertura total. Corrige, ilumina y define con un acabado sedoso estilo metalizado.",
+    description: "A long-wearing liquid concealer with full-coverage technology. Conceals, brightens, and defines with a silky, luminous finish inspired by molten metal.",
     shades: [
       { name: "Light Orbit", color: "#f3e5d3" },
       { name: "Medium Planet", color: "#d2b48c" },
@@ -239,7 +231,7 @@ export const PRODUCTS: Product[] = [
     tag: "PRO",
     rating: 4.7,
     reviews: 98,
-    description: "Paleta multifuncional para esculpir y resaltar tus rasgos. Formulación mate y brillante para una dimensión espacial perfecta.",
+    description: "A multi-use sculpting and highlighting palette. Featuring matte and luminous finishes to create effortless depth and dimension.",
     shades: [
       { name: "Lunar Highlight", color: "#f8f0e5" },
       { name: "Deep Space Contour", color: "#6b4f42" },
@@ -259,7 +251,7 @@ export const PRODUCTS: Product[] = [
     tag: "NEW",
     rating: 4.9,
     reviews: 52,
-    description: "Serum facial iluminador de textura ligera. Formulado con activos aclarantes para unificar el tono de la piel y devolverle su resplandor natural con un acabado de cristal líquido.",
+    description: "A lightweight illuminating facial serum formulated with brightening actives to even skin tone and restore your skin's natural radiance with a liquid crystal finish.",
     shades: [
       { name: "Clear Radiance", color: "#e0e0e0" },
     ],

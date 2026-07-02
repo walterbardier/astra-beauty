@@ -81,7 +81,7 @@ export default function App() {
           // opacity-90 -> define la opacidad de la img
           className="absolute inset-0 w-full h-full object-cover opacity-90 saturate-120"
         />
-        <div className="relative z-10 w-full px-12 pb-14 flex flex-col md:flex-row md:items-end md:justify-between gap-8">
+        <div className="relative z-10 w-full px-20 pb-20 flex flex-col md:flex-row md:items-end md:justify-between gap-8">
           <div>
             <p className="text-[14px] tracking-[0.4em] text-white mb-5">SS-26 COLLECTION</p>
             <h1 className="text-white text-6xl md:text-8xl font-bold uppercase" style={{ lineHeight: 0.9 }}>
@@ -141,14 +141,20 @@ export default function App() {
                 <img
                   src={product.image}
                   alt={product.name}
-                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 pointer-events-none"
+                  className={`absolute inset-0 w-full h-full object-cover pointer-events-none transition-all duration-700 ${
+                    hoveredProduct === product.id && product.gallery.length > 0
+                      ? "opacity-0 scale-105"
+                      : "opacity-100 scale-100"
+                  }`}
                 />
                 {/* Imagen de Galería (Hover) */}
                 {product.gallery && product.gallery.length > 0 && (
                   <img
                     src={product.gallery[0]}
                     alt={`${product.name} secondary`}
-                    className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-700 pointer-events-none ${hoveredProduct === product.id ? "opacity-100" : "opacity-0"}`}
+                    className={`absolute inset-0 w-full h-full object-cover pointer-events-none transition-all duration-700 ${
+                      hoveredProduct === product.id ? "opacity-100 scale-105" : "opacity-0 scale-100"
+                    }`}
                   />
                 )}
                 
@@ -332,9 +338,6 @@ export default function App() {
           100% { transform: translateX(-50%); }
         }
         .animate-marquee { animation: marquee 28s linear infinite; }
-        ::-webkit-scrollbar { width: 4px; }
-        ::-webkit-scrollbar-track { background: transparent; }
-        ::-webkit-scrollbar-thumb { background: #c0384e; border-radius: 99px; }
       `}</style>
     </div>
   );
